@@ -1,0 +1,23 @@
+[worldserver]
+
+########################################
+# mod-ported-items configuration
+########################################
+#
+# Adds two sets of new gear (item entries 9002000-9002019) and a "Planar Merchant"
+# vendor NPC (creature_template entry 9002500) that sells all of them:
+#   - Section A: Path of Exile-inspired unique items (9002000-9002009)
+#   - Section B: Retail WoW-inspired backport items (9002010-9002019)
+#
+# The vendor is NOT spawned automatically - see README.md for ".npc add 9002500".
+#
+
+#
+#    PortedItems.Enable
+#        Master on/off switch for this module. 0 = the module loads but does
+#        nothing beyond its own startup log line; the item rows and the vendor's
+#        stock stay in the database either way (they're inert until someone
+#        actually has/sells the items).
+#        Default: 1
+#
+PortedItems.Enable = 1

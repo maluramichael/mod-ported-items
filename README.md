@@ -1,5 +1,10 @@
 # mod-ported-items
 
+<!-- links:start -->
+[![Support me on Ko-fi](https://malura.de/assets/badge/kofi.svg)](https://malura.de/go/kofi?ref=mod-ported-items)
+[![Check out my page](https://malura.de/assets/badge/malura.svg)](https://malura.de/go/site?ref=mod-ported-items)
+<!-- links:end -->
+
 An [AzerothCore](https://www.azerothcore.org/) module (WotLK 3.3.5a) that adds two small sets
 of new gear, plus a vendor NPC that sells all of it. No client patch required - every item
 reuses an existing in-game model.
